@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'League Spartan', sans-serif;
+}
+
+
+#nav-bar {
+  background-color: #F8F8F8;
+}
+
+#check-out-section {
+  background-color: #fff;
+}
+
+.swiper {
+  width: 250px;
+}
+
+.check-other-products {
+  margin-right: 800px;
+}
+
+.line {
+  height: 0px;
+  width: 36px;
+  left: 214px;
+  margin-top: 7px;
+  top: 45px;
+  opacity: 0.3;
+  background-color: #E5E5E5;
+}
+
+.search-form {
+  margin-left: 190px;
+  /* border: 1px solid #595959; */
+  border-radius: 10px;
+  width: 372px;
+  height: 36px;
+}
+
+.bi-search {
+  height: 20px;
+  width: 20px;
+  left: 340px;
+  top: 8px;
+  border-radius: 0px;
+  margin-left: -1px;
+}
+
+.search-form-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.trio {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 10px;
+}
+
+.person img {
+  border: 0px;
+  border-radius: 50%;
+  height: 33px;
+}
+
+.check-out-icon {
+  height: 24px;
+  width: 12px;
+  left: 13px;
+  top: 8px;
+  margin-left: 21px;
+  border-radius: 0px;
+}
+
+.check-out-text {
+  margin-left: 26px;
+}
+
+.product-overview {
+  display: flex;
+  justify-content: space-between;
+}
+
+#check-out-section .item-display .card {
+  background-color: #FFFF;
+  border: none !important;
+  border-radius: 22px;
+  box-shadow: 4px 4px 100px rgba(187, 166, 146, 0.4);
+}
+
+.product-in-view {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.product-text p {
+  font-size: 13px;
+  margin-top: 20px;
+  margin-left: 24px;
+}
+
+.product-text hr {
+  border-width: 1px;
+  opacity: 0.1;
+  margin-top: 25px;
+  margin-left: 20px;
+  width: 210px;
+}
+
+.text-final {
+  display: flex;
+  justify-content: space-between;
+}
+
+#check-out-section {
+  background-color: #fff;
+}
+
+.decorator-img {
+  margin-left: 845px;
+}
+
+.card-major {
+  height: 45px;
+  width: 90px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.pro-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-major .visa {
+  margin: 13px 0px 3px 10px
+}
+
+.card-major .master-card {
+  margin-left: 18px;
+  margin-bottom: 50px;
+  padding-bottom: 10px;
+}
+
+.card-major .google-pay,
+.others {
+  margin: 13px 0px 0px 17px;
+}
+
+.form-body {
+  margin-left: 100px;
+}
+
+.pay {
+  background-color: #BC8D62 !important;
+  width: 423px !important;
+  margin-left: 10px;
+}
+
+.card-holder,
+.card-number {
+  width: 419px !important;
+}
+
+.cvv {
+  width: 190px !important;
+}
+
+@media (max-width: 426px) {
+  .decorator-img {
+    display: none;
+  }
+
+  .cvv,
+  .card-holder,
+  .card-number,
+  .expiration-date {
+    width: 390px !important;
+  }
+
+  .check-other-products {
+    display: none;
+  }
+
+  .form-body {
+    margin-left: 0px !important;
+  }
+
+  .product-overview {
+    flex-direction: column;
+  }
+
+  .product-text hr {
+    width: 350px;
+  }
+
+  .check-icon {
+    margin-top: 50px;
+    margin-bottom: -67px;
+  }
+
+  .trio,
+  .search-form-icon {
+    display: none;
+  }
+}
