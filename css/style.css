@@ -172,6 +172,7 @@
   width: 190px !important;
 }
 
+
 @media (max-width: 426px) {
   .decorator-img {
     display: none;
@@ -208,5 +209,121 @@
   .trio,
   .search-form-icon {
     display: none;
+  }
+}
+
+@media (max-width: 321px) {
+  .form-body {
+    width: 127%;
+  }
+
+  .card-body {
+    width: 100%;
+  }
+
+  hr {
+    display: none;
+  }
+
+  .vis-vis {
+    margin-left: 15px;
+  }
+
+  .check-icon {
+    margin-left: 22px
+  }
+
+  .card-holder,
+  .card-number,
+  .cvv,
+  .expiration-date {
+    width: 270px !important;
+  }
+
+  .form-cards {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .pay {
+    width: 99% !important;
+  }
+
+  .form-text {
+    width: 74%;
+  }
+
+  .product-text {
+    margin-right: 24px;
+  }
+
+  .card-major {
+    margin-bottom: 11px;
+  }
+
+  .form-body {
+    width: 100%;
+  }
+
+}
+
+@media (max-width: 376px) {
+
+  .card-body {
+    width: 100%;
+  }
+
+  .form-body {
+    width: 127%;
+  }
+
+  .card-body {
+    width: 100%;
+  }
+
+  hr {
+    width: 265px !important;
+  }
+
+  .vis-vis {
+    margin-left: 15px;
+  }
+
+  .check-icon {
+    margin-left: 22px
+  }
+
+  .card-holder,
+  .card-number,
+  .cvv,
+  .expiration-date {
+    width: 270px !important;
+  }
+
+  .form-cards {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .pay {
+    width: 99% !important;
+  }
+
+  .form-text {
+    width: 74%;
+  }
+
+  .product-text {
+    margin-right: 24px;
+  }
+
+  .card-major {
+    margin-bottom: 11px;
+  }
+
+  .form-body {
+    width: 100%;
   }
 }
